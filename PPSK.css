@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+}
+#scoreBoard {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+#buttons {
+    display: flex;
+    width: 400px;
+}
+button{
+    height: 50px;
+    border: 0px;
+    
+}
+#p1Sc{
+    flex: 40%;
+    background-color: rgb(0, 201, 43);
+    color: white;
+    border-radius: 10px 10px 0px 10px;
+}
+#p2Sc{
+    flex: 40%;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+#reset{
+    flex: 20%;
+    background-color: rgb(218, 25, 25);
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+}
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+#title {
+    box-shadow: 0px 3px 20px black;
+    margin: 0px;
+}
+.text {
+    width: 400px;
+}
